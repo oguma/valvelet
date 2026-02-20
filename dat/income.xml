@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<income>
+  <!--
+    Expected future incomes.
+    frequency: monthly, weekly, daily, once
+    from/to: date range (YYYY-MM-DD). omit "to" if ongoing.
+  -->
+  <entry frequency="monthly">
+    <source>Freelance client A</source>
+    <amount>120000</amount>
+    <from>2026-01-01</from>
+  </entry>
+
+  <entry frequency="monthly">
+    <source>Side gig</source>
+    <amount>10000</amount>
+    <from>2026-01-01</from>
+    <to>2026-04-30</to>
+  </entry>
+</income>

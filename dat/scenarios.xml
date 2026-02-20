@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenarios>
+  <!--
+    Lifestyle scenarios. Each scenario is a daily spending pattern.
+    days-per-week: how often this activity happens (0-7, decimals ok).
+    The simulator uses this as probability: days-per-week / 7.
+  -->
+  <scenario>
+    <name>Social lifestyle</name>
+    <activity>
+      <name>Cafe</name>
+      <cost>800</cost>
+      <days-per-week>5</days-per-week>
+    </activity>
+    <activity>
+      <name>Restaurant</name>
+      <cost>1200</cost>
+      <days-per-week>4</days-per-week>
+    </activity>
+    <activity>
+      <name>Shotbar</name>
+      <cost>3000</cost>
+      <days-per-week>2</days-per-week>
+    </activity>
+  </scenario>
+
+  <scenario>
+    <name>Moderate lifestyle</name>
+    <activity>
+      <name>Restaurant</name>
+      <cost>1500</cost>
+      <days-per-week>5</days-per-week>
+    </activity>
+    <activity>
+      <name>Cafe</name>
+      <cost>1000</cost>
+      <days-per-week>4</days-per-week>
+    </activity>
+  </scenario>
+
+  <scenario>
+    <name>Minimal lifestyle</name>
+    <activity>
+      <name>Grocery store</name>
+      <cost>1000</cost>
+      <days-per-week>3</days-per-week>
+    </activity>
+  </scenario>
+</scenarios>

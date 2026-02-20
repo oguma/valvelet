@@ -1,0 +1,40 @@
+Screen {
+    background: #0a0a12;
+}
+
+TabbedContent {
+    height: 1fr;
+}
+
+ContentSwitcher {
+    height: 1fr;
+}
+
+TabPane {
+    height: 1fr;
+    padding: 1 2;
+    overflow-y: auto;
+}
+
+#chart {
+    width: 100%;
+    height: auto;
+    min-height: 20;
+    color: #e8e8e8;
+}
+
+#metrics {
+    width: 100%;
+    height: auto;
+    color: #e8e8e8;
+}
+
+#death-days {
+    width: 100%;
+    height: auto;
+    color: #c9a84c;
+}
+
+Footer {
+    background: #0a0a12;
+}
